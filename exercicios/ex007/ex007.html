@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condição</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do Carro: <input type="number" name="txtvel" id="vel"> Km/h
+    <input type="button" value="Verificar" onclick="testar()">
+    <div id="res"></div>
+    <div id="tex"></div>
+    <div id="multa"></div>
+
+    <script>
+        function testar(){
+            var txtv = document.querySelector('input#vel')
+            var vel = Number(txtv.value)
+            var res = document.getElementById('res')
+            var p = document.getElementById('tex')
+            var mul = document.getElementById('multa')
+            res.innerText = (`Sua velocidade Atual é de ${vel} Km/hr`)
+            p.innerText = ('Diriga Sempre com o sinto de segurança')
+            
+            if (vel>60){
+                mul.innerText = (' Você foi MULTADO por excesso de velocidade')
+            }
+
+        }
+
+    </script>
+</body>
+</html>
