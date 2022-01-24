@@ -1,6 +1,6 @@
 var agora = new Date()
 var diasem = agora.getDay()
-diasem = 3
+diasem = 4
 /* para o JS o dia da semana em númeração
     Domingo -> 0
     Segunda -> 1
