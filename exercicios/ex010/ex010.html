@@ -12,12 +12,27 @@
         <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div>teste</div>
-        <div>teste</div>
+        <div>
+            <label for="txtano">Ano do Nascimento</label>
+            <input type="number" id="txtano" name="txtano" placeholder="Ex.:1996">
+            <p>Sexo:
+                <label for="mas">Masculino</label>
+                <input type="radio" id="mas" name="sexo" checked>
+                <label for="fem">Feminino</label>
+                <input type="radio" id="fem" name="sexo">
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">Preencha os dados acima para ver o resultado!
+        </div>
+        
     </section>
     <footer><p>&copy;Coping</p>
 
     </footer>
+    <script src="script.js"></script>
     
 </body>
 </html>
