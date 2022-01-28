@@ -60,5 +60,4 @@ else{
     res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
     res.appendChild (img) // esse codigo é para aparecer o conteúdo logo abaixo do de cima
 }
-
 }
