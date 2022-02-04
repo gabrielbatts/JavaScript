@@ -1,5 +1,5 @@
 function verificar(){
-var data = new Date()
+var data = new Date() // aqui é pra essa variável ficar com a data do sistema
 var ano = data.getFullYear()
 var fano = document.getElementById('txtano')
 var res = document.querySelector('div#res')
