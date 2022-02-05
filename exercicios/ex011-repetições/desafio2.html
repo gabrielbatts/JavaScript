@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Desafio da Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
@@ -13,14 +13,15 @@
     </header>
     <section>
         <div>
-            <p>Inicio: <input type="number" id="inicio" name="inicio"></p>
-            <p>Fim: <input type="number" id="fim" name="fim"></p>
-            <p>Passo: <input type="number" id="passo" name="passo"></p>
-            <p><input type="button" value="Contar" onclick="contar()"></p>
+            <p>Número: <input type="number" id="nu" name="numero"> <input type="button" value="Calcular" onclick="calcular()"></p>                    
         </div>
-        <div id="res">Insira os Dados</div>
+        <div>
+            <select name="tabuada" id="tabuada" size="10">
+                <option value="">Digite um número acima.</option>
+            </select>
+        </div>
     </section>
     <footer>&copy; Site Criado por <a href="http://" target="_blank" rel="external">Gabriel Batista</a></footer>
-    <script src="script.js"></script>
+    <script src="escri.js"></script>
 </body>
 </html>
