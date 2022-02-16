@@ -3,8 +3,10 @@ let altura = document.querySelector('#txta')
 let resposta = document.querySelector('#res')
 
 function calcular(){
+    let p = Number(peso.value)
+    let a = Number(altura.value)
     let resultado = peso.value / (altura.value * 2)
-    if(peso.value.length == 0 || altura.value.length == 0){
+    if(!p || !a){
         alert('Digite um valor')
     }
     else{
