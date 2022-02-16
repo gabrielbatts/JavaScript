@@ -28,3 +28,10 @@ function calcular(){
     }
     }
 }
+
+
+
+const result = document.querySelector('#res') // uma variavel const foi criada aqui e atribuida o id
+const parag = document.createElement('p') // o creatElement cria uma tag no html nesse aqui foi criada a tag <p> e atribuida a const parag
+parag.classList.add('paragrafo') // com o classList.add() foi criada uma class, com o nome paragrafo, para a const parag
+result.appendChild(parag) // aqui a const parag foi atribuiada a result como filho.
