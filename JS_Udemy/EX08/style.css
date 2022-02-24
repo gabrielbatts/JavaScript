@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 255, 255, 0.623);
+}
+section{
+    background-color: white;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    margin: auto;
+    margin-top: 40px;
+}
+div {
+    padding: 15px;
+}
