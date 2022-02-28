@@ -10,7 +10,7 @@ function mostraHora(segundos){
 }
 
 function iniciar(){//aqui vai incrementar os segundos com a combinação do setInterval com o segundos++
-        clearInterval(timer)
+        clearInterval(timer)// esse clearInterval no inicio desa função é para quando toda vez que clicar no iniciar nãoo acumular e os segundos ficarem mais rapido
         timer = setInterval(function(){
         segundos++
         relogio.innerHTML = mostraHora(segundos)// aqui vai jogar o valor de segundos para a função mostraHora
