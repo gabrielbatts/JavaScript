@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(11, 119, 151, 0.753);
+}
+
+section{
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(146, 146, 146);
+}
+.btn-eq:hover{
+    background-color: rgba(83, 83, 197, 0.863);
+}
+h1{
+    font-size: 2em;
+}
