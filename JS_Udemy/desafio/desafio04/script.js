@@ -46,7 +46,7 @@ function criaCalculadora(){
                 const el = e.target // aqui tudo que é clicado é recebido por essa const
 
                 if(el.classList.contains('btn-num')){ // esse codigo tudo que for clicado e for da classe btn-num vai executar o comando abaixo
-                    this.btnParaDisplay(el.innerText)// aqui tava dando erro pq o this aqui é o document, pois ele estava chamando a função. Além disso ele está recebendo o valor do texto de cada botton clicado
+                    this.btnParaDisplay(el.innerText)//ele está recebendo o valor do texto de cada botton clicado
                 }
                 //aqui se for clicado onde contenha essa classe btn-clear vai chamar o metodo clearDisplay
                 if(el.classList.contains('btn-clear')){
