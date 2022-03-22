@@ -16,5 +16,9 @@ console.log(novo.slice(0, -1))
 // Transformando uma string em uma array
 
 const nome = 'Gabriel Nascimento Batista'
-const arra = nome.split(' ') // o valor que eu colocar aqui ele vai usar como parâmetro para separar
+const arra = nome.split(' ') // o caractere que eu colocar aqui ele vai usar como parâmetro para separar
 console.log(arra)
+
+const nami = ['Gabriel', 'Nascimento', 'Batista']
+const qualquer = nami.join(' ')
+console.log(qualquer)
