@@ -3,7 +3,6 @@
 function Pessoa(nome, sobrenome){
     this.nome = nome
     this.sobrenome = sobrenome  // perceba que aqui não precisa da virgula e nem do return
-    Object.freeze(this)
 }
 const p1 = new Pessoa('Gabriel', 'Batista')
 p1.nome = 'Erica'
