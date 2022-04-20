@@ -11,7 +11,7 @@ Se o número digito for maior que 9, consideramos 0.
 11 10  9  8  7  6  5  4  3  2
 77  0  45 32 56 24 20 20 0  10 = 284
 
-11 - (284 % 11) = 2 (Primeiro dígito)
+11 - (284 % 11) = 2 (Segundo dígito)
 Se o número digito for maior que 9, consideramos 0.
 */
 function ValidaCPF(cpfEnviado) {
